@@ -324,6 +324,6 @@ plt.title('TRAPPIST-1f', fontsize=25)
 plt.tick_params(axis='both', which='major', labelsize=20, width=2.5, length=10)
 plt.ylim(1e-4, 1e4)
 plt.xlim(1e-3, 1e0)
-plt.legend(fontsize=17)
+plt.legend(fontsize=16)
 plt.show()
 # checking for commit command
