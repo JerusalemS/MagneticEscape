@@ -311,7 +311,6 @@ fmagnetic_moments_earth_units = magnetic_moments / magnetic_moment_e
 
 #1 plot
 fmass_loss_rates_plot = np.array(fmass_loss_rates) 
-
 # Plotting
 plt.figure(figsize=(12, 8))
 
@@ -325,5 +324,6 @@ plt.title('TRAPPIST-1f', fontsize=25)
 plt.tick_params(axis='both', which='major', labelsize=20, width=2.5, length=10)
 plt.ylim(1e-4, 1e4)
 plt.xlim(1e-3, 1e0)
-plt.legend(fontsize=16)
+plt.legend(fontsize=17)
 plt.show()
+# checking for commit command
