@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # Constants
 Q0_cf_H = 7.7e25  # s^-1
 r_IMB = 7647e3  # in meters
-r_exo = 6871e3  # in meters
+r_exo = 6871e3  
 n_sw = 6e6  # m^-3
 v_sw = 4e5  # m/s
 mu_0 = 4 * np.pi * 1e-7  # Permeability of free space in H/m
